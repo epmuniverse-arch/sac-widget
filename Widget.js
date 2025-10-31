@@ -1,10 +1,10 @@
 class RTLTableWidget extends HTMLElement {
     constructor() {
         super();
-        this.attachShadow({mode: "open"});
-        const container = document.createElement("div");
-        container.textContent = "RTL Table Loaded!";
-        this.shadowRoot.appendChild(container);
+        const shadow = this.attachShadow({mode: "open"});
+        const div = document.createElement("div");
+        div.textContent = "RTL Table Loaded!";
+        shadow.appendChild(div);
     }
 }
 window.customElements.define('rtl-table-widget', RTLTableWidget);
