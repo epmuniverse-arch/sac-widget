@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "name": "Arabic RTL Table Widget",
   "description": "SAC custom widget: RTL table with PF_WF_Planning model data",
-  "vendor": "SAMA",
+  "vendor": "sama",
   "newInstancePrefix": "RTLTableWidget",
   "icon": "",
   "webcomponents": [
@@ -19,6 +19,7 @@
   "methods": {},
   "events": {}
 }
+
 
 
 
