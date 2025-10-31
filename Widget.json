@@ -11,6 +11,7 @@
       "kind": "main",
       "tag": "rtl-table-widget",
       "url": "https://raw.githubusercontent.com/epmuniverse-arch/sac-widget/refs/heads/main/Widget.js",
+      "integrity": "",
       "ignoreIntegrity": true
     }
   ],
@@ -18,4 +19,5 @@
   "methods": {},
   "events": {}
 }
+
 
