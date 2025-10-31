@@ -1,0 +1,18 @@
+#rtl-table-container {
+  direction: rtl;
+  font-family: "Tajawal", Arial, sans-serif;
+}
+#rtl-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+}
+#rtl-table th, #rtl-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: right;
+}
+#rtl-table th {
+  background-color: #f8f9fa;
+  font-weight: bold;
+}
